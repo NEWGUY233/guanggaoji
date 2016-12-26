@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_img"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/main_quit"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content">
+    
+    <TextView
+        android:layout_width="50dp"
+        android:background="@drawable/login_quit"
+        android:layout_height="50dp" />
+    <TextView
+        android:text="退出"
+        android:textSize="20dp"
+        android:textColor="#a3c420"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="50dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/main_setting"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="200dp"
+            android:background="@drawable/g_setting"
+            android:layout_height="200dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="设置"
+            android:layout_marginTop="10dp"
+            android:textSize="28dp"
+            android:textColor="#9000"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_video"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="200dp"
+            android:background="@drawable/g_video"
+            android:layout_height="200dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="播放视频"
+            android:layout_marginTop="10dp"
+            android:textSize="28dp"
+            android:textColor="#00a0e9"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_image"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="200dp"
+            android:background="@drawable/g_image"
+            android:layout_height="200dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="播放图片"
+            android:layout_marginTop="10dp"
+            android:textSize="28dp"
+            android:textColor="#e40074"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

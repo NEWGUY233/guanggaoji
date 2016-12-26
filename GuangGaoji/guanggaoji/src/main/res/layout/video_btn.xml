@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/video_btn"
+        android:layout_width="match_parent"
+        android:background="#d000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/video_stop_start"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/video_stop"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/video_seek"
+            android:progressDrawable="@drawable/video_progress"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:max="100"
+            android:progress="0"
+            android:thumbOffset="5dp"
+            android:thumb="@drawable/video_progress_thumb"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/video_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textSize="25sp"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"/>
+        <ImageView
+            android:id="@+id/video_volume"
+            android:layout_width="wrap_content"
+            android:src="@drawable/video_volume"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/video_hd"
+            android:layout_width="wrap_content"
+            android:text="HD"
+            android:textSize="25sp"
+            android:textColor="#8fff"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content" />
+        
+        <ImageView
+            android:id="@+id/video_full"
+            android:layout_width="wrap_content"
+            android:src="@drawable/video_zoom"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content" />
+        
+
+    </LinearLayout>
+
+</RelativeLayout>

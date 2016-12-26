@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GuangGaoji.iml" filepath="$PROJECT_DIR$/GuangGaoji.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guanggaoji/guanggaoji.iml" filepath="$PROJECT_DIR$/guanggaoji/guanggaoji.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jjdxm-ijkplayer/jjdxm-ijkplayer.iml" filepath="$PROJECT_DIR$/jjdxm-ijkplayer/jjdxm-ijkplayer.iml" />
+    </modules>
+  </component>
+</project>
